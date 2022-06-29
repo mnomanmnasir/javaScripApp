@@ -1,0 +1,67 @@
+.main{
+    border: 4px solid darkgrey;
+    width: 200px ;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    height: 100%;
+    background-color: black;
+
+
+}
+
+.result{
+    width: 80% ;
+
+    margin: 35px ;
+    margin-top: 25px;
+    margin-left: 17px;
+    height: 30px; 
+    background-color: grey;
+    color: #fff;
+    border: 2px solid black;
+}
+
+.clearBtn{ 
+    background-color: grey;
+    width: 40px;
+    margin-top: -10px ;
+    margin: 3px;
+}
+
+
+
+.Btn{
+    background-color: grey;
+    width: 40px;
+    margin-top: 10px ;
+    margin: 3px;
+}
+
+.Btn:hover{
+    background-color: pink;
+}
+
+.Btn:active{
+    background-color: white;
+}
+
+
+.halfBtn{
+    background-color: grey;
+    width: 40px ; 
+    margin: 3px;
+}
+
+.halfBtn:hover{
+
+    background-color: aqua;
+
+}
+.halfBtn:active{
+    background-color: blue;
+}
+
+/* .halfBtn:checked{
+    background-color: blueviolet;
+} */

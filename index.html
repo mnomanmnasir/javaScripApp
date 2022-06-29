@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Onclick  > (this is event on javascript) -->
+
+    <!-- <a href = "#" onclick="alert('Hello World')">Click Me</a>  -->
+    <!-- <a href = "#" onclick="foo('Hello!')">Click Me</a>  -->
+    <!-- <button onclick="clickBtn()">Click Me</button> -->
+    
+     <!-- <img onmousemove="console.log('move')" onmouseout="console.log('out')" onmouseover="console.log('Over')" src="https://tse4.mm.bing.net/th?id=OIP.QdlJEi-eqT531zf0hSWvUwHaE8&pid=Api&P=0&w=276&h=184" alt=""> -->
+
+     <!-- <input id="xyz" type="text" onfocus="this.style.background='yellow'" onblur="this.style.background='pink'">
+
+     <button onclick="getName()">Click</button>
+ 
+     <p id="para"></p> -->
+
+
+
+
+
+
+        <!-- Calculator -->
+
+       <div class="main">  
+
+        
+            <div>
+            <input type="text" id="result" class="result">
+
+            </div>
+            <div>
+                <button class="clearBtn" onclick="clearResult()">C</button>
+               <button class="clearBtn" onclick='getNumber("(")'>(</button>
+               <button class="clearBtn" onclick='getNumber(")")'>)</button>
+               <button class="clearBtn" onclick='getNumber("/")'>/</button>
+             </div>
+            <div>
+           
+                <button class="Btn" onclick="getNumber('1')">1</button>
+                <button class="Btn" onclick="getNumber('2')">2</button>
+                <button class="Btn" onclick="getNumber('3')">3</button>
+                <button class="Btn" onclick="getNumber('+')">+</button>
+
+                 </div>
+            <div>
+                <button class="Btn" onclick="getNumber('4')">4</button>
+                <button class="Btn" onclick="getNumber('5')">5</button>
+                <button class="Btn" onclick="getNumber('6')">6</button>
+                <button class="Btn" onclick="getNumber('-')">-</button>
+            </div>
+            <div>
+                <button class="Btn" onclick="getNumber('7')">7</button>
+                <button class="Btn" onclick="getNumber('8')">8</button>
+                <button class="Btn" onclick="getNumber('9')">9</button>
+                <button class="Btn" onclick="getNumber('*')">x</button>
+            </div>
+
+            <div>
+                <button class="halfBtn" onclick="getNumber('0')">0</button>
+                <button class="halfBtn" onclick="getNumber('00')">00</button>
+                <button class="halfBtn" onclick="getNumber('.')">.</button>
+                <button class="halfBtn" onclick="getResult()">=</button>
+                <!-- <button>C</button>
+                <button>C</button> -->
+            </div>
+
+       </div>       
+
+
+</body>
+
+
+<script src="app.js"></script>
+
+</html>
